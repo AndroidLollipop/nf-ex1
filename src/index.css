@@ -1,4 +1,6 @@
 body {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-size: 13.6px;
   background-color: rgb(243, 242, 239);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
