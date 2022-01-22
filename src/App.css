@@ -42,6 +42,39 @@
   border-top-right-radius: 8px;
 }
 
+.Top1 {
+  min-height: 16em;
+  padding: 0px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.ImageContainer {
+  max-height: 8.8em;
+  padding-bottom: 20px;
+}
+
+.Image {
+  margin: auto;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 4px;
+  display: block;
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+.Top2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .Bottom {
   background-color: #ffffff;
   padding: 12px 20px;
