@@ -153,10 +153,6 @@
 }
 
 @media (max-width: 767px) {
-  .App {
-    padding: 0px;
-  }
-  
   .CompanyName {
     font-size: 0.85rem;
   }
@@ -171,5 +167,11 @@
     max-height: 90px;
     width: 90%;
     float: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .App {
+    padding: 0px;
   }
 }
