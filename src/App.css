@@ -140,6 +140,7 @@
   max-width: 90%;
   text-overflow: ellipsis;
   overflow: hidden;
+  vertical-align: top;
 }
 
 .centered {
