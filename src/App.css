@@ -56,7 +56,6 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  min-height: 16em;
   padding: 0px 15px;
 }
 
@@ -145,4 +144,32 @@
 
 .centered {
   margin: auto
+}
+
+@media (min-width: 992px) {
+  .Top1 {
+    min-height: 16em;
+  }
+}
+
+@media (max-width: 767px) {
+  .App {
+    padding: 0px;
+  }
+  
+  .CompanyName {
+    font-size: 0.85rem;
+  }
+
+  .JobTitle {
+    font-size: 110%;
+  }
+
+  .Image {
+    margin: auto;
+    max-width: 90px;
+    max-height: 90px;
+    width: 90%;
+    float: left;
+  }
 }
