@@ -29,7 +29,9 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="Bottom">Bottom</div>
+            <div className="Bottom">
+              <span className="Skill">Docker</span>
+            </div>
           </div>
         </div>
         <div className="Item col-12 col-sm-12 col-md-6 col-lg-4">

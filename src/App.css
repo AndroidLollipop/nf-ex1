@@ -42,6 +42,15 @@
   border-top-right-radius: 8px;
 }
 
+.Top::after {
+  content: " ";
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+
 .Top1 {
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +91,7 @@
   margin-bottom: 0px;
   font-size: 1.2rem;
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .Top2 {
@@ -118,6 +127,19 @@
   overflow: hidden;
   white-space: nowrap;
   min-height: 54px;
+}
+
+.Skill {
+  background-color: #f1f1f1;
+  color: #838383;
+  font-family: "Roboto Mono", "Consolas", monospace;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 8px;
+  display: inline-block;
+  max-width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .centered {
